@@ -1,0 +1,20 @@
+
+:root{
+    --preto: #2b2b2b;
+    --preto-claro: #333333;
+    --branco: #ffffff;
+    --roxo: #BFAFF2;
+    --amarelo: #F8D57E;
+    --amarelo-claro: #FDF5DF;
+    --cinza:  #808080;
+    
+    --titulo: 60px;
+    --titulo-mobile: 40px;
+    --subtitlo: 24px;
+    --subtitlo-mobile: 20px;
+    --paragrafo: 18px;
+    --paragrafo-mobile: 16px;
+
+    --radius-botao: 30px;
+    --radius-estrutura: 15px;
+}

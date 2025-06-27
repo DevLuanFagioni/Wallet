@@ -1,0 +1,17 @@
+header{
+    padding: 30px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a:nth-child(1):hover{
+        font-weight: bold;
+    }
+
+    & .botao-roxo{
+        margin-left: 30px;
+    }
+
+}
+
+

@@ -1,0 +1,49 @@
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 6%;
+
+    & .formulario-footer{
+        & p{
+            margin-bottom: 15px;
+        }
+
+        & input{
+            width: 250px;
+            height: 40px;
+            border-radius: var(--radius-botao);
+            border: none;
+            outline: none;
+            background-color: var(--preto-claro);
+            padding-left: 30px;
+            font-size: var(--paragrafo);
+            margin-right: 25px;
+        }
+
+        & button{
+            border: none;
+        }
+    }
+
+
+    & .conteudo-footer > div{
+       display: flex;
+       gap: 30px;
+       font-weight: bold;
+    }
+
+    & h1{
+        font-size: var(--subtitulo);
+        margin-bottom: 44px;
+    }
+
+    & p{
+        color: var(--branco);
+    }
+
+    & .titulo-mobile{
+        display: none;
+    }
+}

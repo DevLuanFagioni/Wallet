@@ -1,0 +1,27 @@
+.ilustracao-sobre{
+    background-color: var(--amarelo-claro);
+    text-align: center;
+    border-radius: var(--radius-estrutura);
+    margin-bottom: 100px;
+    
+    & img{
+        width: 100%;
+    }
+}
+
+.conteudo-sobre{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+    & div{
+        padding: 10px 20px;
+        width: 310px;
+        text-align: center;
+
+        & h1{
+            font-size: var(--paragrafo);
+            margin: 30px 0px 10px 0px;
+        }
+    }
+}

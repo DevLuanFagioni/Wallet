@@ -1,0 +1,40 @@
+#depoimentos{
+    margin-bottom: 100px;
+}
+
+.bloco-depoimento{
+    background-color: var(--roxo);
+    padding: 83px 162px;
+    border-radius: var(--radius-estrutura);
+
+    & > div{
+        display: flex;
+        align-items: center;
+
+        & h1{
+            font-size: var(--paragrafo);
+            color: var(--cinza);
+            font-weight: 100;
+        }
+
+        & img{
+            margin-right: 20px;
+        }
+    }
+
+    & > p{
+        color: var(--preto);
+        font-size: var(--subtitlo);
+        font-weight: bold;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    & i{
+        color: var(--preto);
+    }
+}
+
+
+
+    
